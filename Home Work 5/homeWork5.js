@@ -11,7 +11,7 @@ const tarOne = 'Привет, <i>меня</i> зовут <b>Игорь</b>';
 document.getElementById('TextOne').value = tarOne;
 // button convert
 function btnConvert() {
-    document.getElementById('TextTwo').value = document.getElementById('TextOne').value;
+    document.getElementById('TextTwo').innerHTML = document.getElementById('TextOne').value;
 }
 
 // Select chose color for textarea two (right)
