@@ -16,14 +16,14 @@ body {
 .btn_clearLeft {
     position: relative;
     top: -280px;
-    left: 30px;
+    left: 20px;
 
     display: inline-block;
     padding: 10px 15px;
     font-family: 'PT Serif', serif;
-    border: 3px;
+    border: 2px;
     
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     color: rgb(255, 255, 255);
     background-color: rgb(32, 32, 32);
@@ -34,14 +34,14 @@ body {
 .btn_clearRight {
     position: relative;
     top: -280px;
-    left: 30px;
+    left: 20px;
 
     display: inline-block;
     padding: 10px 15px;
     font-family: 'PT Serif', serif;
-    border: 3px;
+    border: 2px;
     
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     color: rgb(255, 255, 255);
     background-color: rgb(32, 32, 32);
@@ -52,32 +52,32 @@ body {
 .btn_convert {
     position: relative;
     top: -120px;
-    left: -26px;
+    left: -28px;
 
     display: inline-block;
     padding: 10px 15px;
     font-family: 'PT Serif', serif;
-    border: 3px;
+    border: 2px;
     
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
-    color: rgb(92, 68, 68);
+    color: rgb(255, 255, 255);
     background-color: rgb(32, 32, 32);
     text-transform: uppercase;
 }
  /* Select options */
 .select_chooseColor {
-    border: 3px;
+    border: 2px;
     position: relative;
-    top: -631px;
-    left: 676px;
+    top: -628px;
+    left: 660px;
 
     display: inline-block;
     padding: 13px 15px;
     font-family: 'PT Serif', serif;
-    border: 5px;
+    border: 2px;
     
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     color: rgb(255, 255, 255);
     background-color: rgb(32, 32, 32);
@@ -105,7 +105,7 @@ body {
  
 .textareaOne {
     display: inline-block;
-    border: 5px;
+    border: 2px;
     position: relative;
     top: 50px;
     left: -83px;
@@ -121,16 +121,15 @@ body {
 .textOutput {
     display: block;
     border: 5px;
-   position: relative;
+    position: relative;
     top: -270px;
-    left: 575px;
+    left: 540px;
     font-size: 20px;
     font-weight: 500;
     resize: none;
-   width: 25%;
-  height: 300px;
-  font-family: 'PT Serif', serif;
-  /*color: black;*/
+    width: 25%;
+    height: 300px;
+    font-family: 'PT Serif', serif;
     background: rgb(255, 255, 255);
 
 }
