@@ -1,10 +1,6 @@
 
 // Start line
-let min = document.getElementById("result-output").value;
-let max = document.getElementById("endValue").value;
-let size = document.getElementById("numberOfValues").value;
 
-console.log(min)
 
 // Result line
 let res = document.getElementById("result-output").innerHTML;
@@ -13,9 +9,13 @@ let res = document.getElementById("result-output").innerHTML;
 const btnStart = document.getElementById("btn-btn");
 
 btnStart.onclick = function() {
-    let val = getRandomNumber(max, min, size);
+    let min = document.getElementById("initialValue").value;
+let max = document.getElementById("endValue").value;
+let size = document.getElementById("numberOfValues").value;
+console.log(min)
+    let val = getRandomNumber(min, max, size);
     console.log(min)
-    document.getElementById('result-output').innerHTML = " результат рандома" + val;
+    document.getElementById('result-output').innerHTML = val;
 };
 
 function getRandomNumber(min, max, size) {
